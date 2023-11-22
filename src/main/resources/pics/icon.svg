@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   viewBox="0 0 199.99999 199.99999"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="/home/marco/Downloads/icon-8.png"
+   inkscape:export-xdpi="3.5999999"
+   inkscape:export-ydpi="3.5999999">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4203">
+      <stop
+         style="stop-color:#0200c7;stop-opacity:1"
+         offset="0"
+         id="stop4163" />
+      <stop
+         style="stop-color:#005ec8;stop-opacity:1"
+         offset="1"
+         id="stop4165" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4203"
+       id="linearGradient4179"
+       x1="-824.4967"
+       y1="747.88245"
+       x2="-352.35373"
+       y2="747.88245"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-201.24985,-211.96425)" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter4217">
+      <feGaussianBlur
+         stdDeviation="5 5"
+         result="blur"
+         id="feGaussianBlur4219" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter4254">
+      <feGaussianBlur
+         stdDeviation="5 5"
+         result="blur"
+         id="feGaussianBlur4256" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter4156">
+      <feGaussianBlur
+         stdDeviation="5 5"
+         result="blur"
+         id="feGaussianBlur4158" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4203"
+       id="linearGradient4179-5"
+       x1="-824.4967"
+       y1="747.88245"
+       x2="-352.35373"
+       y2="747.88245"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0.25263058,-3.5355999)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-30.561973"
+     inkscape:cy="116.91093"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36225)">
+    <rect
+       style="fill:#000078;fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3344"
+       width="179.99998"
+       height="169.99998"
+       x="9.9999962"
+       y="867.36224"
+       ry="17.172592" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#linearGradient4179-5);fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 92.499991,872.73726 -82.12499,82.12499 0,61.03905 c 0,8.912 7.17393,16.0859 16.08593,16.0859 l 81.039049,0 82.125,-82.12495 0,-61.03905 c 0,-8.91201 -7.17393,-16.08594 -16.08594,-16.08594 l -81.039049,0 z"
+       id="rect3344-6-8" />
+    <rect
+       style="fill:url(#linearGradient4179);fill-opacity:1;stroke:none;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3344-6"
+       width="294.64264"
+       height="123.21422"
+       x="-953.96106"
+       y="472.88257"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       ry="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4148"
+       y="997.18726"
+       x="19.233786"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.99999237px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4156)"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:137.49998474px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#000000;fill-opacity:1;"
+         y="997.18726"
+         x="19.233786"
+         id="tspan4150"
+         sodipodi:role="line">Im</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.99999237px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#efffd5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="19.233786"
+       y="997.18726"
+       id="text4205"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4207"
+         x="19.233786"
+         y="997.18726"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:137.49998474px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#efffd5;fill-opacity:1">Im</tspan></text>
+    <rect
+       ry="16.086647"
+       y="872.73737"
+       x="10.375141"
+       height="159.24969"
+       width="179.24969"
+       id="rect4248"
+       style="fill:none;fill-opacity:1;stroke:#00003c;stroke-width:10.75028706;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.99999237px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#efffd5;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text4186"
+       transform="translate(-208.0914,130.30966)">
+      <path
+         d="m -35.333548,762.07529 20.212497,0 0,89.64999 -20.212497,0 0,-89.64999 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:137.49998474px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#efffd5;fill-opacity:1"
+         id="path4191"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 4.3738699,783.52529 16.4999981,0 1.375,8.8 0.55,0 q 4.262499,-4.2625 9.074999,-7.2875 4.812499,-3.1625 11.549999,-3.1625 7.287499,0 11.687498,3.025 4.5375,2.8875 7.149999,8.3875 4.5375,-4.675 9.487499,-7.975 5.0875,-3.4375 11.962499,-3.4375 10.999999,0 16.087498,7.425 5.225001,7.2875 5.225001,20.075 l 0,42.34999 -20.212499,0 0,-39.73749 q 0,-7.425 -2.0625,-10.175 -1.925,-2.75 -6.324999,-2.75 -5.0875,0 -11.687499,6.6 l 0,46.06249 -20.212498,0 0,-39.73749 q 0,-7.425 -2.062499,-10.175 -1.925,-2.75 -6.325,-2.75 -5.224999,0 -11.549998,6.6 l 0,46.06249 -20.2124981,0 0,-68.19999 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:137.49998474px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';fill:#efffd5;fill-opacity:1"
+         id="path4193"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
