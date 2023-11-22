@@ -10,7 +10,9 @@
 	
 	<description>
 		Execute `mvn clean compile exec:java` to run it.
-		Source: 
+		info:
+		https://commons.wikimedia.org/wiki/Commons:Imker_(batch_download)
+		https://github.com/maflcko/wiki-java-tools/releases
 		
 	</description>
 	
