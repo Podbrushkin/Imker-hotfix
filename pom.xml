@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>imker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	
@@ -17,6 +17,7 @@
 	</description>
 	
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 		<exec.mainClass>app.ImkerGUI</exec.mainClass>
@@ -24,11 +25,11 @@
 	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api -->
-		<dependency>
+		<!--<dependency>
 			<groupId>jakarta.xml.bind</groupId>
 			<artifactId>jakarta.xml.bind-api</artifactId>
 			<version>4.0.1</version>
-		</dependency>
+		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
 		<dependency>
 			<groupId>com.beust</groupId>
@@ -47,6 +48,8 @@
             <artifactId>maven-assembly-plugin</artifactId>
             <version>3.6.0</version>
             <configuration>
+				<finalName>imker</finalName>
+				<appendAssemblyId>false</appendAssemblyId>
                 <descriptorRefs>
                     <descriptorRef>jar-with-dependencies</descriptorRef>
                 </descriptorRefs>

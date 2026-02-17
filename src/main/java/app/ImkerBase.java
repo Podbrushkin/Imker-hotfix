@@ -7,6 +7,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.security.MessageDigest;
@@ -16,10 +18,11 @@ import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Queue;
 import java.util.ResourceBundle;
+import java.util.PropertyResourceBundle;
 import java.util.logging.Level;
 
 import javax.security.auth.login.LoginException;
-import jakarta.xml.bind.annotation.adapters.HexBinaryAdapter;
+import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
 
 import wiki.Wiki;
 
@@ -65,10 +68,28 @@ public abstract class ImkerBase extends App {
 	protected static final String PREF_WIKI_DOMAIN_DEFAULT = "commons.wikimedia.org";
 	// }
 	protected static final ResourceBundle MSGS = ResourceBundle.getBundle(
-			RESOURCE_BUNDLE_BASE_NAME, Locale.getDefault());
+		RESOURCE_BUNDLE_BASE_NAME,
+		Locale.getDefault(),
+		new UTF8Control());
 
 	protected enum FileStatus {
 		DOWNLOADED, NOT_FOUND, CHECKSUM_CONFIRMED, CHECKSUM_ERROR
+	}
+
+	private static class UTF8Control extends ResourceBundle.Control {
+		@Override
+		public ResourceBundle newBundle(String baseName, Locale locale, String format,
+										ClassLoader loader, boolean reload) throws IOException {
+			String bundleName = toBundleName(baseName, locale);
+			String resourceName = toResourceName(bundleName, "properties");
+
+			try (InputStream is = loader.getResourceAsStream(resourceName)) {
+				if (is == null) return null;
+				try (Reader reader = new InputStreamReader(is, "UTF-8")) {
+					return new PropertyResourceBundle(reader);
+				}
+			}
+		}
 	}
 
 	/**
